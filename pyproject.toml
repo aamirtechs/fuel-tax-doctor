@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fuel-tax-doctor"
+version = "1.0.0"
+description = "Audit a quarterly IFTA fuel tax records CSV export for audit triggers before the return goes in"
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.9"
+
+[project.scripts]
+fuel-tax-doctor = "fuel_tax_doctor:main_entry"
+
+[tool.setuptools]
+py-modules = ["fuel_tax_doctor"]

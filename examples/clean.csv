@@ -1,0 +1,5 @@
+jurisdiction,miles,gallons_purchased,tax_paid_gallons,quarter,credit
+TX,6000,1000,1000,2026-Q3,
+OK,3000,500,500,2026-Q3,
+NM,1200,200,200,2026-Q3,
+TOTAL,10200,,,,
